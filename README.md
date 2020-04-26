@@ -1,2 +1,2 @@
 # Website-Boilerplate
-Just a basic website template. That I can update as I learn more badass practices.
+Just a basic website template that I can update as I learn more better development practices.

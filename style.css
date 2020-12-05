@@ -1,0 +1,11 @@
+:root {
+    /* color variables go here */
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}

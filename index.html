@@ -10,24 +10,44 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="style.css">
+
   <title>Generic Title</title>
 </head>
 
 <body>
-
-  <h1>Hello, world!</h1>
-
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Quisque egestas diam in arcu cursus euismod. Dignissim convallis aenean et tortor at risus viverra
-    adipiscing. Neque ornare aenean euismod elementum nisi. Etiam erat velit scelerisque in dictum non consectetur a
-    erat. Nunc sed augue lacus viverra vitae congue eu consequat ac. Vitae congue eu consequat ac felis donec et odio
-    pellentesque. Tincidunt praesent semper feugiat nibh sed. Consequat semper viverra nam libero justo laoreet sit amet
-    cursus. Vitae ultricies leo integer malesuada nunc. Sollicitudin tempor id eu nisl nunc mi ipsum. Cursus turpis
-    massa tincidunt dui. Nulla malesuada pellentesque elit eget gravida cum sociis.
-  </p>
-
-  <button type="button" class="btn btn-primary" onclick="runCode()">Click Me</button>
+  <header>
+    <nav>
+      <!-- navbar stuff goes here -->
+    </nav>
+    <h1>Hello, world!</h1>
+  </header>
+  <main>
+    <section id="">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna
+        aliqua. Quisque egestas diam in arcu cursus euismod. Dignissim convallis aenean et tortor at risus viverra
+        adipiscing. Neque ornare aenean euismod elementum nisi. Etiam erat velit scelerisque in dictum non consectetur a
+        erat. Nunc sed augue lacus viverra vitae congue eu consequat ac. Vitae congue eu consequat ac felis donec et
+        odio
+        pellentesque. Tincidunt praesent semper feugiat nibh sed. Consequat semper viverra nam libero justo laoreet sit
+        amet
+        cursus. Vitae ultricies leo integer malesuada nunc. Sollicitudin tempor id eu nisl nunc mi ipsum. Cursus turpis
+        massa tincidunt dui. Nulla malesuada pellentesque elit eget gravida cum sociis.
+      </p>
+      <button type="button" class="btn btn-primary" onclick="runCode()">Click Me</button>
+    </section>
+    <footer>
+      <p>
+        Copyright &copy; Lucas Stoltman
+        <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script>
+      </p>
+    </footer>
+  </main>
 
   <!-- Putting the external src in the body so the contents load before the js is good practice -->
   <script src="Script.js"></script>

@@ -7,11 +7,11 @@
     --default-shadow: 0 2px 5px black;
     /*  */
 }
+
+header {
+    text-align: center;
+}
   
 footer {
-    position: absolute;
     text-align: center;
-    width: 100%;
-    bottom: 0;
-    left: 0;
 }

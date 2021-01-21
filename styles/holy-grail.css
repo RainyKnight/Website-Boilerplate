@@ -1,3 +1,9 @@
+/* Credit goes to Philip Walton at: 
+
+https://github.com/philipwalton/solved-by-flexbox 
+
+*/
+
 /* 
 1. Avoid the IE 10-11 `min-height` bug.
 
@@ -6,8 +12,13 @@
      minimum size. See http://bit.ly/1Mn35US for details.
 
 3. Use `%` instead of `vh` since `vh` is buggy in older mobile Safari.
+*/
 
-Credit goes to Philip Walton at: https://github.com/philipwalton */
+:root {
+    --space: 1.5em;
+    --space-lg: 2em;
+    --break-lg: 768px;
+}
 
 .HolyGrail {
     display: flex;
@@ -43,7 +54,7 @@ Credit goes to Philip Walton at: https://github.com/philipwalton */
     background: rgba(147, 128, 108, 0.1);
 }
 
-@media (--break-lg) {
+@media (min-width: 768px) {
     .HolyGrail-body {
         flex-direction: row;
     }
